@@ -3,8 +3,8 @@ description: Use case registration form for capturing system functional requirem
 title: "[Use Case]: "
 labels: [Use Case]
 assignees:
-- robertohuru
-- johene
+  - robertohuru
+  - johene
 body:
 - type: markdown
   attributes:
