@@ -29,25 +29,24 @@ body:
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
       value: "A bug happened!"
+      render: shell
     validations:
       required: true
-  - type: dropdown
+  - type: input
     id: version
     attributes:
       label: Version
       description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+      placeholder: e.g. 1.0.1
     validations:
       required: true
   - type: dropdown
-    id: browsers
+    id: os
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: What Operating System were you using when the bug occured?
       multiple: true
       options:
-        - Firefox
+        - Windows
         - Chrome
         - Safari
         - Microsoft Edge
