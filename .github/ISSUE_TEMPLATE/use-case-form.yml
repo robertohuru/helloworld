@@ -81,12 +81,12 @@ body:
   attributes:
     label: Post-Condition?
     description: Specify the condition that must be met after the action is taken.
-  value: |
-    1.
-    2.
-    3.
-    ...
-  render: bash
+    value: |
+      1.
+      2.
+      3.
+      ...
+    render: bash
 - type: textarea
   id: business-rules
   attributes:
@@ -104,4 +104,3 @@ body:
   id: open-issues
   attributes:
     label: Open Issues
-  
