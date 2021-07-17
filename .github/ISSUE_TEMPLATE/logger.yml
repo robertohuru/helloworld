@@ -17,6 +17,11 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
+  - type: input.file
+    id: screenshot
+    attributes:
+      label: Attach Screenshots
+      description: Please add screenshots of the error
   - type: textarea
     id: what-happened
     attributes:
