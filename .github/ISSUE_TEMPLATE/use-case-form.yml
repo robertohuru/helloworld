@@ -1,7 +1,5 @@
 name: Use Case Form
 description: Use case registration form for capturing system functional requirements
-title: "[Use Case]: "
-labels: [Use Case]
 assignees:
   - robertohuru
 body:
