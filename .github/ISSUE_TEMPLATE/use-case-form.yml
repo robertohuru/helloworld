@@ -1,0 +1,88 @@
+name: Use Case Form
+description: Use case registration form for capturing system functional requirements
+title: "[Use Case]: "
+labels: [Use Case]
+assignees:
+- robertohuru
+- johene
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to fill out this bug report!
+- type: input
+  id: source
+  attributes:
+    label: Author
+    description: Name of the Author?
+    placeholder: E.g. Robert
+  validations:
+    required: false
+- type: input
+  id: primary-actor
+  attributes:
+    label: Primary Actor
+    description: Title/Role of the primary actor
+    placeholder: E.g. Administration officer
+  validations:
+    required: false
+- type: textarea
+  id: secondary-actors
+  attributes:
+    label: Other Participating Actors
+    description: Title/Role of other participating actors
+    value: "Registrar!"
+  validations:
+    required: true
+- type: textarea
+  id: description
+  attributes:
+    label: Description
+    description: Provide the description of how the action should be taken.
+  validations:
+    required: true
+- type: textarea
+  id: pre-condition
+  attributes:
+    label: Pre-Condition(s)
+    description: Specify the conditions that must be met before the action can be taken.
+  validations:
+    required: false
+- type: input
+  id: trigger
+  attributes:
+    label: Trigger
+    description: The action upon the system if that starts the use case
+  validations:
+    required: false
+- type: textarea
+  id: events
+  attributes:
+    label: Events
+    description: Which event(s) will initiate this action? This can be provided as a table of numbered list where an actor action and the corresponding system response is decribed.
+  validations:
+    required: true
+- type: textarea
+  id: post-condition
+  attributes:
+    label: Post-Condition?
+    description: Specify the condition that must be met after the action is taken.
+ - type: textarea
+  id: business-rules
+  attributes:
+    label: Business Rules
+    render: shell
+- type: textarea
+  id: constraints
+  attributes:
+    label: Implementation Constraints and Specifications
+    
+- type: textarea
+  id: assumptions
+  attributes:
+    label: Assumptions
+- type: textarea
+  id: open-issues
+  attributes:
+    label: Open Issues
+   
