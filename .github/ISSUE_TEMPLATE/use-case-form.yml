@@ -6,7 +6,8 @@ assignees:
   - robertohuru
 body:
 - type: markdown
-  value: "## Use Case Form!"
+  attributes:
+    value: "## Use Case Form!"
 - type: markdown
   attributes:
     value: |
