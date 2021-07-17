@@ -49,10 +49,10 @@ body:
     label: Pre-Condition(s)
     description: Specify the conditions that must be met before the action can be taken.
     value: |
-        1.
-        2.
-        3.
-        ...
+      1.
+      2.
+      3.
+      ...
     render: bash
   validations:
     required: false
@@ -69,10 +69,10 @@ body:
     label: Events
     description: Which event(s) will initiate this action? This can be provided as a table of numbered list where an actor action and the corresponding system response is decribed.
     value: |
-        1.
-        2.
-        3.
-        ...
+      1.
+      2.
+      3.
+      ...
     render: bash
   validations:
     required: true
@@ -82,10 +82,10 @@ body:
     label: Post-Condition?
     description: Specify the condition that must be met after the action is taken.
   value: |
-        1.
-        2.
-        3.
-        ...
+    1.
+    2.
+    3.
+    ...
   render: bash
 - type: textarea
   id: business-rules
@@ -104,4 +104,4 @@ body:
   id: open-issues
   attributes:
     label: Open Issues
-   
+  
