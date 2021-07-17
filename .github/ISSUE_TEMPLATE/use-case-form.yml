@@ -4,7 +4,6 @@ title: "[Use Case]: "
 labels: [Use Case]
 assignees:
   - robertohuru
-  - johene
 body:
 - type: markdown
   value: "## Use Case Form!"
