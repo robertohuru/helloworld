@@ -1,9 +1,6 @@
 name: Feature Request Form
 description: Suggest an idea for this software
 labels: "Feature Request"
-assignees:
-- monalisa
-- nat
 body:
 - type: markdown
   attributes:
