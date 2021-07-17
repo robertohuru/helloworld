@@ -48,9 +48,15 @@ body:
   attributes:
     label: Pre-Condition(s)
     description: Specify the conditions that must be met before the action can be taken.
+    value: |
+        1.
+        2.
+        3.
+        ...
+    render: bash
   validations:
     required: false
-- type: input
+- type: textarea
   id: trigger
   attributes:
     label: Trigger
@@ -62,6 +68,12 @@ body:
   attributes:
     label: Events
     description: Which event(s) will initiate this action? This can be provided as a table of numbered list where an actor action and the corresponding system response is decribed.
+    value: |
+        1.
+        2.
+        3.
+        ...
+    render: bash
   validations:
     required: true
 - type: textarea
@@ -69,6 +81,12 @@ body:
   attributes:
     label: Post-Condition?
     description: Specify the condition that must be met after the action is taken.
+  value: |
+        1.
+        2.
+        3.
+        ...
+  render: bash
 - type: textarea
   id: business-rules
   attributes:
