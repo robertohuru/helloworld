@@ -22,8 +22,7 @@ body:
     attributes:
       label: Stage/Level
       description: What stage/level of the application did you encounter this error?
-      multiple: false
-      required: true
+      multiple: false     
       options:        
         - Scheme Lodgement
         - Scheme Establishment
@@ -34,6 +33,8 @@ body:
         - Search
         - Report/Certificate Generation
         - Others
+    validations:
+      required: true
   - type: textarea
     id: what-happened
     attributes:
