@@ -1,9 +1,10 @@
 name: Bug Report
 description: File a bug report
 title: "[Bug]: "
-labels: [bug, crush, error]
+labels: [bug, triage, crush, error]
 assignees:
   - robertohuru
+  - johene
 body:
   - type: markdown
     attributes:
