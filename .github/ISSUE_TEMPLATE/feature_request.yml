@@ -1,7 +1,7 @@
 name: Feature Request Form
 description: Suggest an idea for this software
 title: "[Feature]: "
-labels: [Feature Request]
+labels: "Feature Request"
 assignees:
 - monalisa
 - nat
