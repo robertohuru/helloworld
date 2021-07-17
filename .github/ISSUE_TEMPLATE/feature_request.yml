@@ -6,10 +6,6 @@ labels:
 assignees:
   - robertohuru
 body:
-- type: markdown
-  attributes:
-    value: |
-      Thanks for taking the time to fill out this new feature request form!
 - type: input
   id: contact
   attributes:
@@ -44,4 +40,8 @@ body:
   id: screenshots
   attributes:
     label: Additional context
-    description: Add any other context or screenshots about the feature request here.    
+    description: Add any other context or screenshots about the feature request here. 
+ - type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to fill out this new feature request form!
