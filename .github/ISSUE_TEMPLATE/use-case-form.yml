@@ -1,4 +1,6 @@
 name: Use Case Form
+title: "[Use Case]: "
+labels: [Use Case]
 description: Use case registration form for capturing system functional requirements
 assignees:
   - robertohuru
