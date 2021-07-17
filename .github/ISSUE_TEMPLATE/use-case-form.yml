@@ -76,7 +76,6 @@ body:
   id: constraints
   attributes:
     label: Implementation Constraints and Specifications
-    
 - type: textarea
   id: assumptions
   attributes:
