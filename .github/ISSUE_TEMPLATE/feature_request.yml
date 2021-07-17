@@ -5,6 +5,7 @@ labels: [Feature Request]
 assignees:
   - robertohuru
 body:
+- type: markdown
 - type: input
   id: contact
   attributes:
