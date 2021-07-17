@@ -7,6 +7,8 @@ assignees:
   - johene
 body:
 - type: markdown
+  value: "## Use Case Form!"
+- type: markdown
   attributes:
     value: |
       Thanks for taking the time to fill out this bug report!
@@ -67,7 +69,7 @@ body:
   attributes:
     label: Post-Condition?
     description: Specify the condition that must be met after the action is taken.
- - type: textarea
+- type: textarea
   id: business-rules
   attributes:
     label: Business Rules
