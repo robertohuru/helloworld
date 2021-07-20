@@ -30,7 +30,7 @@
 We don't like reinventing the wheel. So, our coding standards uses the [PEP 8 -- Style Guide](https://www.python.org/dev/peps/pep-0008/). We optimize for readability. Just a few mentions:
 
   * We indent using two spaces (soft tabs)
-  * We use Pylint for finding bugs and style problems in our source code. Make sure you run pylint on your code. Suppress warnings if they are inappropriate so that other issues are not hidden. To suppress warnings, you can set a line-level comment. Please know that when you commit you code, we will run an automatic pylint test to ensure that there are no issues.
+  * We use PyLint for finding bugs and style problems in our source code. Make sure you run pylint on your code. Suppress warnings if they are inappropriate so that other issues are not hidden. To suppress warnings, you can set a line-level comment. Please know that when you commit you code, we will run an automatic Lint test to ensure that there are no issues.
   * We avoid avoid global variables. Variables that are declared at the module level or as class attributes.
   * Maximum line length is 80 characters. Exception to this rule is when you have long import statements, URLs, pathnames, or long flags in comments.
   * Be sure to use the right style for class, function, method docstrings and inline comments.
