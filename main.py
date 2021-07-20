@@ -1,7 +1,7 @@
 import unittest
 
 
-class Numerics:    
+class Numerics:
 
     def __init__(self):
         pass
@@ -12,7 +12,6 @@ class Numerics:
         """
 
         return num1 + num2
-
 
 class TestStringMethods(unittest.TestCase):
 
