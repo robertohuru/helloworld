@@ -34,6 +34,7 @@ We don't like reinventing the wheel. So, our coding standards uses the [PEP 8 --
   * We avoid avoid global variables. Variables that are declared at the module level or as class attributes.
   * Maximum line length is 80 characters. Exception to this rule is when you have long import statements, URLs, pathnames, or long flags in comments.
   * Be sure to use the right style for class, function, method docstrings and inline comments.
+  * Don’t use [`from module import *`]. Instead list the names you need explicitly e.g [`from module import method1, method2`]
   * We ALWAYS put spaces after list items and method parameters (`[1, 2, 3]`, not `[1,2,3]`), around operators (`x += 1`, not `x+=1`), and around hash arrows.
   * This is open source software. Consider the people who will read your code, and make it look nice for them. It's sort of like driving a car: Perhaps you love doing donuts when you're alone, but with passengers the goal is to make the ride as smooth as possible.
   
