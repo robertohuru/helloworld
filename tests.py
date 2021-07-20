@@ -13,6 +13,7 @@ class Numerics:
 
         return num1 + num2
 
+
 class TestStringMethods(unittest.TestCase):
 
     def test_upper(self):
